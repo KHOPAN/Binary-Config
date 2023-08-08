@@ -1,0 +1,2 @@
+# Binary Config
+Binary Config is a library for serializing and deserializing data that's like JSON, but in binary. Originally, this library is made for a config file for the Advanced Overlay mod, but it can be used outside Advanced Overlay, so I extracted to a different repository.
