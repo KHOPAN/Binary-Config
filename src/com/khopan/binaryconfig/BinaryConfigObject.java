@@ -258,6 +258,10 @@ public class BinaryConfigObject extends BinaryConfigElement {
 		return this.map.get(key).data;
 	}
 
+	public boolean contains(String key) {
+		return this.map.containsKey(key);
+	}
+
 	public void print() {
 		this.print(System.out);
 	}
